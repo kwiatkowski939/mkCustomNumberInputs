@@ -1,0 +1,62 @@
+/* Imports */
+/* general styles */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* custom number styles */
+.custom-number {
+  position: relative;
+}
+.custom-number input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  color: #565656;
+  width: 50px;
+}
+
+/* disable default webkit input type number appearance */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/*  add and sub buttons styles */
+.btn-number {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  text-decoration: none;
+  background: #44ab00;
+  font-size: 16px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}

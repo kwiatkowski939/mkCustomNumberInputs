@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">	       
+<head>
+<meta charset="utf-8">
+<title>mkCustomNumberInputs</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- HTML5 IE8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+	<h1>mkCustomNumberInputs Demo:</h1>
+	<div class="custom-number"> <!-- custom number input wrap -->
+		<a href="#sub" class="btn-number sub">-</a> <!-- substraction  button-->
+		<input type="number" id="amount" min="0" max="20" value="3"> <!-- custom number input -->
+		<a href="#add" class="btn-number add">+</a> <!-- addition button -->
+	</div>
+</div>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script> <!-- jQuery libary -->
+<script src="scripts/mkcustomnumberinputs.js"></script> <!-- mkCustomNumberInputs libary -->
+<script>
+	$('.custom-number').mkCustomNumberInputs(); // initialize 
+</script>
+</body>
+</html>
